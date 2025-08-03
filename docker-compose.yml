@@ -1,0 +1,8 @@
+
+services:
+  runner:
+    image: github-runner
+    build:
+      dockerfile: Dockerfile
+    container_name: my-github-runner
+    env_file: .env
