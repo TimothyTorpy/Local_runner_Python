@@ -18,4 +18,6 @@ jobs:
 
 
     - name: Run tests
-      run: python -m unittest test.py
+
+      run: cd src && 
+        python -m unittest -v test.py
