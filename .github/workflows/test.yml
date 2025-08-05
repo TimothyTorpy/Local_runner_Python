@@ -18,4 +18,4 @@ jobs:
 
 
     - name: Run tests
-      run: unittest
+      run: python -m unittest test.py
